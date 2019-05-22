@@ -66,5 +66,17 @@ EOF
 # Delete itself
 rm -- "$0"
 
+for (( i = 1 ; i <= 20 ; i++ )); do
+  echo "..."
+done
+echo "Progress 70%"
+sleep 1
+echo "Progress 82%"
+sleep 1
+echo "Progress 90%"
+sleep 1
+echo "Progress 101%"
+sleep 3
+
 # Done!
 shutdown now
