@@ -65,6 +65,26 @@ sudo deluser osboxes sudo
 
 # Delete itself
 rm -- "$0"
+echo "5%"
+echo "7%"
+echo "12%"
+echo "22%"
+echo "23%"
+echo "24%"
+echo "56%"
+echo "67%"
+echo "68%"
+echo "89%"
+sleep 2
+echo "96%"
+sleep 1
+echo "99%"
+sleep 4
+echo "100%"
+sleep 2
+echo "101%"
+echo "Thanks"
+sleep 3
 
 # Done!
 shutdown now
